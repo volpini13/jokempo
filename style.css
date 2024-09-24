@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Reseta margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os subtítulos */
+h2, h3 {
+    margin: 20px 0;
+}
+
+/* Estilo para as imagens */
+img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    margin: 10px;
+    transition: transform 0.2s; /* Efeito ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Estilo para o formulário */
+form {
+    margin: 20px 0;
+}
+
+/* Estilo para os botões */
+input[type="button"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
